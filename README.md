@@ -1,4 +1,4 @@
-# MTG MODS (Android)
+# Blitz Mods (Android)
 
 A mobile mod distribution platform for World of Tanks Blitz.
 
