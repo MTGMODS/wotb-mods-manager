@@ -1,0 +1,110 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#36393E"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical">
+		<ScrollView
+			android:id="@+id/vscroll1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_gravity="center_horizontal|center_vertical">
+			<LinearLayout
+				android:id="@+id/linear3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="center_horizontal"
+				android:orientation="vertical"
+				android:layout_gravity="center_horizontal|center_vertical">
+				<TextView
+					android:id="@+id/textview1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:text="MTG MODS ©\n\nАвтоматический установщик модов для игры World of Tanks Blitz\n\n\nРазработчик приложения: Master_tanka_Grille15 (MTG MODS)\n"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF" />
+				<TextView
+					android:id="@+id/textview2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Наше Discord сообщество:"
+					android:textSize="18dp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF" />
+				<ImageView
+					android:id="@+id/imageview1"
+					android:layout_width="40dp"
+					android:layout_height="40dp"
+					android:src="@drawable/discord"
+					android:scaleType="centerCrop" />
+				<TextView
+					android:id="@+id/textview3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp"
+					android:padding="8dp"
+					android:text="Канал на YouTube:"
+					android:textSize="18dp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF" />
+				<ImageView
+					android:id="@+id/imageview2"
+					android:layout_width="40dp"
+					android:layout_height="40dp"
+					android:src="@drawable/youtube"
+					android:scaleType="centerCrop" />
+				<TextView
+					android:id="@+id/textview4"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp"
+					android:padding="8dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:text="Желающим поддержать финансово:"
+					android:textSize="17dp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF" />
+				<ImageView
+					android:id="@+id/imageview3"
+					android:layout_width="40dp"
+					android:layout_height="40dp"
+					android:src="@drawable/ic_local_atm_white"
+					android:scaleType="centerCrop" />
+				<LinearLayout
+					android:id="@+id/linear4"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp"
+					android:layout_marginBottom="15dp"
+					android:padding="8dp"
+					android:gravity="center_horizontal"
+					android:orientation="vertical">
+
+				</LinearLayout>
+				<TextView
+					android:id="@+id/textview19"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="   Назад   "
+					android:textSize="30dp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF"
+					android:layout_gravity="center_horizontal" />
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+</LinearLayout>

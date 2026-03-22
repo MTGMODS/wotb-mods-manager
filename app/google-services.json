@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "721845862697",
+    "firebase_url": "https://mtg-mods-c5be0-default-rtdb.firebaseio.com",
+    "project_id": "mtg-mods-c5be0",
+    "storage_bucket": "mtg-mods-c5be0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721845862697:android:12275021be600e05447738",
+        "android_client_info": {
+          "package_name": "com.mtg.manage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721845862697-gddt80ps46stf2nd9ssrqp8qdvlo4mma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCocr1jg2YQc0lvhAiLgXuOZHGoOyhoc5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721845862697-gddt80ps46stf2nd9ssrqp8qdvlo4mma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721845862697:android:066b18c77f44ec66447738",
+        "android_client_info": {
+          "package_name": "com.mtg.mods.wotb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721845862697-gddt80ps46stf2nd9ssrqp8qdvlo4mma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCocr1jg2YQc0lvhAiLgXuOZHGoOyhoc5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721845862697-gddt80ps46stf2nd9ssrqp8qdvlo4mma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

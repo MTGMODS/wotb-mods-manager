@@ -1,0 +1,41 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="#36393E"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textview1"
+            android:focusable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="In order to restore the blitz cache from mods, you need to delete the dvpl_file_info_cache.txt file, which is located along the path:\n/Android/data/net.wargaming.wot.blitz/files/packs/"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF" />
+        <Button
+            android:id="@+id/button1"
+            android:focusable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:padding="8dp"
+            android:background="@drawable/roundedbutton"
+            android:text="  Okay  "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</LinearLayout>

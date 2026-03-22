@@ -1,0 +1,111 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#36393E"
+        android:orientation="vertical">
+        <ScrollView
+            android:id="@+id/vscroll1"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:background="#36393E"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textview2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Ссылка на скачивание:"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF" />
+                <EditText
+                    android:id="@+id/edittext2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="50dp"
+                    android:padding="8dp"
+                    android:textSize="18sp"
+                    android:textColor="#FF9800"
+                    android:hint="Вставьте ссылку..."
+                    android:textColorHint="#FFFFFF"
+                    android:imeOptions="actionDone" />
+                <TextView
+                    android:id="@+id/textview1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Код версии:"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF" />
+                <EditText
+                    android:id="@+id/edittext1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="50dp"
+                    android:padding="8dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:textSize="18sp"
+                    android:textColor="#FF9800"
+                    android:hint="Введите код версии..."
+                    android:textColorHint="#FFFFFF"
+                    android:imeOptions="actionDone" />
+                <TextView
+                    android:id="@+id/textview3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Что нового:"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF" />
+                <EditText
+                    android:id="@+id/edittext3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textSize="12sp"
+                    android:textColor="#FFFFFF"
+                    android:hint="ru"
+                    android:textColorHint="#FFFFFF"
+                    android:imeOptions="actionDone" />
+                <EditText
+                    android:id="@+id/edittext4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:padding="8dp"
+                    android:textSize="12sp"
+                    android:textColor="#FFFFFF"
+                    android:hint="en"
+                    android:textColorHint="#FFFFFF"
+                    android:imeOptions="actionDone" />
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:background="@drawable/roundedbutton"
+                    android:text="  Добавить обновление  "
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

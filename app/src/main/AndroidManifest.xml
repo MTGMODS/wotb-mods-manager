@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mtg.mods.wotb">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_ALL_FILES" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND" />
+    <uses-permission
+        android:name="android.permission.QUERY_ALL_PACKAGES"
+        tools:ignore="QueryAllPackagesPermission" />
+    <uses-permission
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/app_icon"
+        android:label="MTG MODS"
+        android:largeHeap="true"
+        android:preserveLegacyExternalStorage="true"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/Theme.MTGMODS">
+        <activity
+            android:name=".InterfacesEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InterfacesViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RemodViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RemodEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SixSenseEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SixSenseViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SkinsEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SkinsViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SightEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SightViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HangarEditModActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HangarViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ModsWaitingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminPanelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditModActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewVersionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UploadMod6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".UploadMod5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".UploadMod4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".UploadMod3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".UploadMod2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".UploadMod1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SAF_PermissionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ModderPanelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewMod2BActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewMod4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".NewMod3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".NewMod2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".NewModActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Android11ModpackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Android11ModActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SolyankaActivity"
+            android:exported="false"
+            android:largeHeap="true" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WotViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SolyankaViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:exported="false" />
+        <activity
+            android:name=".RemodelingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MiniGameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ModsActivity"
+            android:exported="false"
+            android:largeHeap="true" />
+        <activity
+            android:name=".StopActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InterfacesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SoundsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SixsenseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OthersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HangarsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LimitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DownloadUpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NoNetworkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdaterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SkinsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VipActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LogoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

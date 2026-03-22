@@ -1,0 +1,110 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:paddingTop="8dp"
+		android:paddingBottom="8dp"
+		android:background="#36393E"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="8dp"
+			android:layout_marginRight="8dp"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:text="Мини-игра &quot;Рандомайзер&quot;\n\nПри каждом нажатии будет выбрано рандомное число от 1 до 10000\n\nЕсли число будет больше, чем 9990, то вся реклама  в приложении будет отключена!"
+			android:textSize="18sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF" />
+		<Button
+			android:id="@+id/button2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="30dp"
+			android:padding="8dp"
+			android:background="#FF9800"
+			android:text="  Начать игру  "
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF" />
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="35dp"
+			android:layout_marginBottom="25dp"
+			android:padding="8dp"
+			android:background="#FF9800"
+			android:text="  Назад  "
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF" />
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/textview3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="20dp"
+				android:padding="8dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:text="Желаю вам удачи!"
+				android:textSize="18sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF" />
+			<Button
+				android:id="@+id/button3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:background="#FF9800"
+				android:text="  Попытать удачу  "
+				android:textSize="20sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF" />
+			<Button
+				android:id="@+id/button5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="35dp"
+				android:padding="8dp"
+				android:background="#FF9800"
+				android:text="  Забрать приз!  "
+				android:textSize="20sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF" />
+			<Button
+				android:id="@+id/button4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="35dp"
+				android:padding="8dp"
+				android:background="#FF9800"
+				android:text="  Назад  "
+				android:textSize="20sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF" />
+			<LinearLayout
+				android:id="@+id/linear3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

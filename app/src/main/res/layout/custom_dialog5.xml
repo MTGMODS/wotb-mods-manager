@@ -1,0 +1,61 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:background="#36393E"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/textview1"
+			android:focusable="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:text="You can disable all ads in the application, for this you need to purchase a special key (price: 2$)\n\nTo purchase a key, please contact me:\nDiscord - BoGDaN#2452\nTelegram - \@mtg_mods\n\nIf you have already purchased a key, then enter it in the field below."
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF" />
+		<LinearLayout
+			android:id="@+id/linear4"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+			<EditText
+				android:id="@+id/edittext1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:textSize="14sp"
+				android:textColor="#FFFFFF"
+				android:hint="Enter your key..."
+				android:textColorHint="#FFFFFF"
+				android:maxLines="1"
+				android:imeOptions="actionDone" />
+		</LinearLayout>
+		<Button
+			android:id="@+id/button1"
+			android:focusable="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dp"
+			android:layout_marginBottom="20dp"
+			android:padding="8dp"
+			android:background="@drawable/roundedbutton"
+			android:text="  Next  "
+			android:textSize="25sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF" />
+	</LinearLayout>
+</LinearLayout>

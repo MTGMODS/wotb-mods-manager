@@ -1,0 +1,65 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:background="#36393E"
+		android:gravity="center_horizontal"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/textview3"
+			android:focusable="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:text="Вы можете отключить всю рекламу в приложении, для этого вам требуется специальный ключ.\n\nДанный ключ платный (цена 2$)\nЕсли вы желаете его приобрести, то свяжитесь со мной.\nDiscord: BoGDaN#2452\nTelegram: \@mtg_mods\n\nЕсли у вас уже есть ключ, введите его в поле ниже..."
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF" />
+		<LinearLayout
+			android:id="@+id/linear5"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal">
+			<EditText
+				android:id="@+id/edittext1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:textSize="16sp"
+				android:textColor="#4CAF50"
+				android:hint="Введите ваш ключ..."
+				android:maxLines="1"
+				android:textColorHint="#FFFFFF"
+				android:lines="1"
+				android:imeOptions="actionDone" />
+		</LinearLayout>
+		<Button
+			android:id="@+id/button1"
+			android:focusable="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="25dp"
+			android:layout_marginBottom="25dp"
+			android:paddingLeft="10dp"
+			android:paddingTop="8dp"
+			android:paddingRight="10dp"
+			android:paddingBottom="8dp"
+			android:background="@drawable/roundedbutton"
+			android:text="  Продолжить  "
+			android:textSize="25sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF" />
+	</LinearLayout>
+</LinearLayout>
